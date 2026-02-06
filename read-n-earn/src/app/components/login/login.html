@@ -1,0 +1,21 @@
+<div class="login-container">
+  <div class="caja-login">
+    <h2>Iniciar Sesión</h2>
+
+    <form (ngSubmit)="onLogin()">
+      <div>
+        <label>Email</label>
+        <input type="email" [(ngModel)]="email" name="email" placeholder="tu@email.com">
+      </div>
+
+      <div>
+        <label>Contraseña</label>
+        <input type="password" [(ngModel)]="password" name="password" placeholder="Tu contraseña">
+      </div>
+
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+
+    <p>¿No tienes cuenta? <a href="#">Regístrate aquí</a></p>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #FAF8F3FF;
+}
+
+.caja-login {
+  background: white;
+  padding: 20px;
+  border: 1px solid #DDDDDDFF;
+  max-width: 400px;
+  width: 100%;
+}
+
+.caja-login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333FF;
+  font-size: 20px;
+}
+
+.caja-login div {
+  margin-bottom: 10px;
+}
+
+.caja-login label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555555FF;
+}
+
+.caja-login input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #DDDDDDFF;
+}
+
+.caja-login input:focus {
+  border-color: #8B6F47FF;
+  outline: none;
+}
+
+.caja-login button {
+  width: 100%;
+  padding: 10px;
+  background: #8B6F47FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.caja-login button:hover {
+  background: #6B5437FF;
+}
+
+.caja-login p {
+  text-align: center;
+  margin-top: 10px;
+  color: #666666FF;
+  font-size: 15px;
+}
+
+.caja-login a {
+  color: #8B6F47FF;
+  text-decoration: none;
+}
+
