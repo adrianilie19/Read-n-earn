@@ -1,0 +1,31 @@
+<div class="body">
+    <div class="contenedor-biblioteca">
+        <div class="encabezado-biblioteca">
+            <h1>Tu biblioteca</h1>
+            <input type="text" class="busqueda-libro" placeholder="Buscar en tus libros...">
+        </div>
+
+        <div class="grid-libros">
+            <div class="tarjeta-libro" *ngFor="let libro of libros">
+                <div class="imagen-libro">
+                    <img *ngIf="libro.cover_image" [src]="libro.cover_image" alt="Portada" width="150">
+                </div>
+                <div class="info-libro">
+                    <h3>{{ libro.title }}</h3>
+                    <p class="autor-libro">{{ libro.authors.join(', ') }}</p>
+                    <div class="estado-libro">
+                        <span class="etiqueta-estado">{{ libro.status || 'Sin estado' }}</span>
+                    </div>
+                    <div class="barra-progreso">
+                        <div class="relleno-progreso" [style.width]="libro.progress ? libro.progress + '%' : '0%'"></div>
+                    </div>
+                    <button class="btn-accion">{{ libro.progress ? 'Continuar leyendo' : 'Comenzar' }}</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-boton-derecha">
+            <button class="btn-siguiente"><i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
+</div>

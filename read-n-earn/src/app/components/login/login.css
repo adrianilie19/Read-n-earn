@@ -1,0 +1,101 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 815px;
+  background: #f6ece5;
+}
+
+.caja-login {
+  background: #fcf7f3;
+  padding: 40px 30px;
+  border: 1.8px solid #e3d4cc;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px #00000014;
+}
+
+.caja-login h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #2a1e1a;
+  font-size: 24px;
+}
+
+.subtitulo-login {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #777777ff;
+  font-size: 14px;
+}
+
+.grupo-formulario {
+  margin-bottom: 20px;
+}
+
+.caja-login label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #555555ff;
+  font-weight: 500;
+}
+
+.caja-login input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddddddff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.caja-login input:focus {
+  border-color: #8b6f47;
+  box-shadow: 0 0 0 3px #8b6f4726;
+  outline: none;
+}
+
+.caja-login button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: #634731;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.caja-login button:hover:not(:disabled) {
+  background-color: #4e3725;
+  transform: translateY(-2px);
+}
+
+.caja-login button:disabled {
+  background-color: #f0e1d9;
+  cursor: not-allowed;
+}
+
+.caja-login p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666666ff;
+}
+
+.caja-login a {
+  color: #634731;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+.caja-login a:hover {
+  color: #4e3725;
+}

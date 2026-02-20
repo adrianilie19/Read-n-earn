@@ -1,0 +1,145 @@
+.body {
+    background-color: #faf4ef;
+}
+
+.contenedor-logros {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px 80px 20px;
+    background-color: #faf4ef;
+    min-height: 35%;
+}
+
+.encabezado-logros {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.encabezado-logros h1 {
+    font-size: 36px;
+    color: #333333ff;
+    font-family: 'DMSerifText', serif;
+    margin: 0 0 10px 0;
+}
+
+.subtitulo-logros {
+    font-size: 15px;
+    color: #999999ff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.lista-logros {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tarjeta-logro {
+    background-color: #ffffff;
+    border: 2px solid #e3d4cc;
+    border-radius: 14px;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-logro:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.tarjeta-logro.completado {
+    background-color: #faf4ef;
+}
+
+.circulo-logro {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #e0d5c7;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.circulo-logro.lleno {
+    border-color: #634731ff;
+    background-color: #634731ff;
+}
+
+.tick {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.info-logro h3 {
+    font-size: 16px;
+    color: #333333ff;
+    margin: 0 0 5px 0;
+    font-family: 'DMSerifText', serif;
+    font-weight: bold;
+}
+
+.descripcion-logro {
+    font-size: 13px;
+    color: #999999ff;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.exp-logro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.numero-exp {
+    font-size: 20px;
+    color: #634731;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.texto-exp {
+    font-size: 12px;
+    color: #999999ff;
+    font-family: 'Inter', sans-serif;
+}
+
+.bi-trophy {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.contenedor-boton-filtro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn-filtro {
+    padding: 10px 25px;
+    background-color: #634731;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-filtro:hover {
+    background-color: #7a462e;
+}
